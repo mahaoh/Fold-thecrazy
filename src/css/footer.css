@@ -1,0 +1,47 @@
+.footer {
+  width: 100%;
+  position: relative;
+  height: 1.16935484rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+.footer .juntuan {
+  width: 20%;
+  position: relative;
+}
+.footer .juntuan .yuan {
+  width: 100%;
+  position: absolute;
+  bottom: 9%;
+  left: 0%;
+}
+.footer .juntuan .yuan .imgs {
+  width: 50%;
+  padding-bottom: 0.08064516rem;
+}
+.footer dl {
+  width: 20%;
+  text-align: center;
+  position: relative;
+  font-size: 10px;
+}
+.footer dl img {
+  width: 33%;
+}
+[data-dpr="2"] .footer dl {
+  font-size: 20px;
+}
+[data-dpr="3"] .footer dl {
+  font-size: 30px;
+}
+.footer .active {
+  color: red;
+}

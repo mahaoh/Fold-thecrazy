@@ -1,0 +1,32 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-slide img {
+  width: 100%;
+}
+.swiper-container .posi {
+  position: relative;
+}
+#btn {
+  background: #272727;
+  color: #f2f2f2;
+  line-height: 1.17741935rem;
+  width: 94%;
+  position: absolute;
+  left: 3%;
+  bottom: 10%;
+  border: none;
+  font-size: 20px;
+}
+[data-dpr="2"] #btn {
+  font-size: 40px;
+}
+[data-dpr="3"] #btn {
+  font-size: 60px;
+}

@@ -1,0 +1,225 @@
+body,
+html {
+  background: #b6999b;
+  margin-top: 0.80645161rem;
+  margin-bottom: 1.00806452rem;
+}
+#header {
+  width: 100%;
+  background: #fff;
+  height: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+#header span {
+  font-size: 17px;
+}
+[data-dpr="2"] #header span {
+  font-size: 34px;
+}
+[data-dpr="3"] #header span {
+  font-size: 51px;
+}
+#header span:nth-child(1) {
+  padding-left: 0.4516129rem;
+  width: 150px;
+  font-size: 20px;
+}
+[data-dpr="2"] #header span:nth-child(1) {
+  font-size: 40px;
+}
+[data-dpr="3"] #header span:nth-child(1) {
+  font-size: 60px;
+}
+#header span:nth-child(2) {
+  width: 100%;
+  text-align: center;
+}
+#header span:nth-child(3) {
+  width: 150px;
+  text-align: right;
+  padding-right: 0.38709677rem;
+  font-size: 16px;
+}
+[data-dpr="2"] #header span:nth-child(3) {
+  font-size: 32px;
+}
+[data-dpr="3"] #header span:nth-child(3) {
+  font-size: 48px;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  padding-top: 0.48387097rem;
+  padding-bottom: 0.32258065rem;
+}
+.title img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.list .list_img {
+  width: 30%;
+  margin-top: 0.28225806rem;
+  margin-left: 0.28225806rem;
+}
+.list .list_img img {
+  width: 100%;
+}
+.section {
+  width: 96%;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 0.2016129rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section .section_left {
+  width: 45%;
+}
+.section .section_left img {
+  width: 40%;
+  padding-top: 0.24193548rem;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0.24193548rem;
+}
+.section .section_right {
+  width: 55%;
+}
+.section .section_right h6 {
+  font-size: 16px;
+  padding-top: 0.40322581rem;
+  padding-bottom: 0.80645161rem;
+}
+[data-dpr="2"] .section .section_right h6 {
+  font-size: 32px;
+}
+[data-dpr="3"] .section .section_right h6 {
+  font-size: 48px;
+}
+.section .section_right span {
+  color: red;
+  font-size: 18px;
+}
+[data-dpr="2"] .section .section_right span {
+  font-size: 36px;
+}
+[data-dpr="3"] .section .section_right span {
+  font-size: 54px;
+}
+.section .section_right s {
+  font-size: 14px;
+  color: #999;
+  padding-left: 0.41935484rem;
+}
+[data-dpr="2"] .section .section_right s {
+  font-size: 28px;
+}
+[data-dpr="3"] .section .section_right s {
+  font-size: 42px;
+}
+.section .section_right p {
+  padding-top: 0.40322581rem;
+}
+.section .section_right p button {
+  border: none;
+  background: red;
+  height: 0.80645161rem;
+  color: #fff;
+  padding-left: 1.29032258rem;
+  padding-right: 1.29032258rem;
+  font-size: 16px;
+}
+[data-dpr="2"] .section .section_right p button {
+  font-size: 32px;
+}
+[data-dpr="3"] .section .section_right p button {
+  font-size: 48px;
+}
+.btn {
+  width: 96%;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  height: 1.08870968rem;
+}
+[data-dpr="2"] .btn {
+  font-size: 28px;
+}
+[data-dpr="3"] .btn {
+  font-size: 42px;
+}
+.jing {
+  width: 96%;
+  margin: 0 auto;
+  margin-bottom: 0.24193548rem;
+}
+.jing img {
+  width: 100%;
+}
+.swiper-container {
+  width: 96%;
+  background: #fff;
+  margin: 0 auto;
+}
+.swiper-container .swiper-slide {
+  width: 33%;
+}
+.swiper-container .swiper-slide img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0.41935484rem;
+  padding-bottom: 0.37096774rem;
+}
+.swiper-container .swiper-slide h6 {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 0.32258065rem;
+}
+[data-dpr="2"] .swiper-container .swiper-slide h6 {
+  font-size: 32px;
+}
+[data-dpr="3"] .swiper-container .swiper-slide h6 {
+  font-size: 48px;
+}
+.swiper-container .swiper-slide p {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 0.80645161rem;
+}
+[data-dpr="2"] .swiper-container .swiper-slide p {
+  font-size: 32px;
+}
+[data-dpr="3"] .swiper-container .swiper-slide p {
+  font-size: 48px;
+}

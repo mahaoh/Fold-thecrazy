@@ -1,0 +1,433 @@
+@import url("rem.less");
+body,html{
+    .mb(145);
+}
+.banner{
+     .mb(96);
+    .swiper-pagination-bullet-active{
+    background:red;
+}
+.swiper-pagination-bullet{
+    width:12px;
+    height: 12px;
+}
+.swiper-slide img {
+            width:100%;
+        }
+}
+.search{
+    width:100%;
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    .h(120);
+
+    .search_left{
+        width:100%;
+        .h(92);
+        .mt(14);
+        display:flex;
+        justify-content:flex-end;
+        .search_s{
+            width:96%;
+            background:#e1e0df;
+            opacity: 0.8;
+            display:flex;
+            .pt(20);
+            .pb(20);
+            justify-content: space-between;
+            p{
+                display:flex;
+                align-items:center;
+                span{
+                    .font-dpr(14px);
+                    color:#bcbcbc;
+                    .pl(20);
+                }
+                img{
+                    .w(50);
+                    .h(50);
+                }
+            }
+            P:first-child{
+                .pl(24);
+            }
+            .sao{
+                .pr(28);
+            }
+        }
+    }
+    .search_right{
+        width:130px;
+       display:flex;
+       align-items:center;
+        img{
+            .w(70);
+            .h(62);
+            display:block;
+            margin: 0 auto;
+        }
+    }
+}
+.nav{
+    width:100%;
+    ul{
+        display:flex;
+        li{
+            width:25%;
+            font-weight: 800;
+            text-align: center;
+            .font-dpr(14px);
+            p:first-child{
+                border-right: 5px solid #000;
+            }
+            p:last-child{
+                .pt(40);
+                .pb(90);
+            }
+        }
+        li:last-child{
+            p:first-child{
+                border-right:none;
+            }
+        }
+    }
+}
+.flow{
+    width:96%;
+    margin:0 auto;
+    position:relative;
+    .flow_top{
+        background:#1b1628;
+        width:100%;
+        display:flex;
+        justify-content:space-around;
+        color:#fff;
+        img{
+            width:60%;
+            .pb(36);
+        }
+        dl{
+            width:18%;
+            text-align:center;
+            .pt(76);
+            .pb(115);
+            .font-dpr(12px);
+        }
+        p{
+            width:2.5%;
+            i{
+                .pt(108);
+                color:#7f7b8a;
+                .font-dpr(18px);
+            }
+        }
+    }
+    .flow_center{
+        width:100%;
+        position:absolute;
+        left:0;
+        bottom: -25%;
+        img{
+            width:100%;
+        }
+    }
+
+}
+.flow_bottom{
+    width:96%;
+    margin:0 auto;
+    margin-top: 0.813226rem;
+    .mb(40);
+        img{
+            width:100%;
+        }
+    }
+.inform{
+    display:flex;
+    justify-content:center;
+    .pb(92);
+    ul{
+        display:flex;
+        li{
+            color:#d8d8d8;
+            .font-dpr(14px);
+            .pl(20);
+            i{
+                color:#d8d8d8;
+                .font-dpr(20px);
+            }
+        }
+    }
+}
+.purchase{
+    width:100%;
+    position:relative;
+      h1{
+        width:50%;
+        background:#fff;
+        .font-dpr(18px);
+        font-weight:900;
+        margin:0 auto;
+        text-align:center;
+        position:absolute;
+        left:25%;
+        bottom:90%;
+    }
+    .title{
+       width:80%;
+       border-top: 1px solid #ccc;
+       margin: 0 auto;
+       p{
+        text-align:center;
+        .pt(16);
+        span{
+            color:red;
+            .font-dpr(14px);
+        }
+       }
+        mark{
+            background:#fff;
+            .font-dpr(15px);
+        }
+        a{
+            .w(36);
+            .h(40);
+            background:red;
+            color:#fff;
+            text-align:center;
+            .font-dpr(10px);
+        }
+    }
+
+}
+.list{
+    width:100%;
+    .mt(60);
+    .swiper-wrapper{
+    #max{
+        width:44% !important;
+        img{
+            width:95%;
+            .pt(120);
+            display:block;
+            margin:0 auto;
+            .pb(118);
+        }
+        p{
+            color:#333333;
+             text-align:center;
+             .font-dpr(14px);
+             .pb(32);
+        }
+    }
+    .list_div{
+        width:21% !important;
+
+        .min_list{
+            border:1px solid #ccc;
+             img{
+            width:75%;
+            display:block;
+            margin: 0 auto;
+            .pt(20);
+           }
+           p{
+            .pt(20);
+            .pb(32);
+            text-align:center;
+            .font-dpr(14px);
+           }
+
+        }
+        .list_bottom{
+            .mb(32);
+        }
+    }
+}
+}
+.main{
+
+        .pt(70);
+    p{
+        text-align:center;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        .mb(122);
+        span{
+             .font-dpr(12px);
+            color:#9a9a9a;
+        }
+
+        i{
+            .font-dpr(30px);
+             color:#9a9a9a;
+             .pl(24);
+        }
+    }
+    h5{
+        .font-dpr(19px);
+        color:red;
+        font-weight:800;
+        text-align:center;
+        .pb(30);
+    }
+    h6{
+        text-align:center;
+        .font-dpr(12px);
+            color:#9a9a9a;
+            .pb(88);
+    }
+}
+.picture{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    .mb(100);
+    .picture_img{
+        width:48%;
+        .ml(20);
+         img{
+            width:100%;
+        }
+
+    }
+    }
+    .figure{
+        width:96%;
+        background:#f6f6f6;
+        display:flex;
+        margin: 0 auto;
+        .mb(8);
+        .figure_left{
+            width:40%;
+            background:#fff;
+            .mt(36);
+            .mb(28);
+            .ml(50);
+            img{
+                .pt(66);
+                .pb(26);
+                width:60%;
+                display:block;
+                margin:0 auto;
+            }
+        }
+        .figure_right{
+            width:60%;
+            h6{
+                .font-dpr(16px);
+                .pt(87);
+                .pl(50);
+                .pb(26);
+            }
+            p{
+                .font-dpr(14px);
+                .pl(70);
+                .pb(35);
+            }
+            .bgred{
+                width:80%;
+                .h(132);
+                display:flex;
+                background:red;
+                border-radius: 5px;
+                .ml(70);
+                .mb(26);
+                .bgfff{
+                    width:40%;
+                    .h(100);
+                    background:#fff;
+                    border-radius:5px;
+                    .mt(15);
+                    .ml(15);
+                    text-align:center;
+                    h5{
+                        .pt(4);
+                    }
+                }
+                .bg_riht{
+                   width:60%;
+                    text-align:center;
+                    color:#fff;
+                    h5:first-child{
+                        .pt(20);
+                    }
+                }
+            }
+            h3{
+                .pl(70);
+            }
+        }
+    }
+.next{
+    .mb(50);
+}
+.commodity{
+    width:96%;
+    margin:0 auto;
+    .mb(56);
+    img{
+        width:100%;
+    }
+    .commodity_list{
+        .mt(28);
+        width:100%;
+        .swiper-slide{
+            width:25% !important;
+            border:1px solid #ccc;
+            margin-right: 0 !important;
+            position:relative;
+            .ml(28);
+            img{
+                width:80%;
+                display: block;
+                margin: 0 auto;
+            }
+            p{
+                .font-dpr(12px);
+                .pt(20);
+                .pb(32);
+                overflow: hidden; /*自动隐藏文字*/
+                text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+                white-space: nowrap;/*强制不换行*/
+            }
+            h6{
+                color:red;
+                text-align:center;
+                .pb(33);
+                .font-dpr(12px);
+            }
+            h5{
+                background:red;
+                color:#fff;
+                .font-dpr(12px);
+                width:36%;
+                position:absolute;
+                left:0;
+                top:0;
+            }
+            }
+        }
+        .gengguo{
+            .geng{
+                border-bottom: 1px solid #ccc;
+                width:63%;
+                .font-dpr(14px);
+                .pt(157);
+                .pb(20);
+                margin:0 auto;
+            }
+            h2{
+                margin:0 auto;
+                 width:70%;
+                .font-dpr(14px);
+                .pt(22);
+                .pb(188);
+
+            }
+        }
+    }

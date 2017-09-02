@@ -1,0 +1,144 @@
+body,
+html {
+  position: relative;
+}
+#header {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.72580645rem;
+  height: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#header span {
+  font-size: 17px;
+}
+[data-dpr="2"] #header span {
+  font-size: 34px;
+}
+[data-dpr="3"] #header span {
+  font-size: 51px;
+}
+#header span:nth-child(1) {
+  padding-left: 0.4516129rem;
+  width: 150px;
+}
+#header span:nth-child(2) {
+  width: 100%;
+  text-align: center;
+}
+#header span:nth-child(3) {
+  width: 150px;
+}
+input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 0.80645161rem;
+  padding-left: 0.32258065rem;
+  font-size: 14px;
+  height: 0.64516129rem;
+  padding-bottom: 0.12903226rem;
+}
+[data-dpr="2"] input {
+  font-size: 28px;
+}
+[data-dpr="3"] input {
+  font-size: 42px;
+}
+.btn {
+  display: block;
+  width: 94%;
+  line-height: 1.06451613rem;
+  background: red;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  margin: 0  auto;
+  border-radius: 5px;
+}
+[data-dpr="2"] .btn {
+  font-size: 28px;
+}
+[data-dpr="3"] .btn {
+  font-size: 42px;
+}
+.zhuce {
+  background: #fff;
+  border: 1px solid red;
+  color: red;
+  margin-top: 0.58064516rem;
+  margin-bottom: 0.64516129rem;
+}
+p {
+  text-align: right;
+  padding-right: 0.24193548rem;
+  font-size: 14px;
+}
+[data-dpr="2"] p {
+  font-size: 28px;
+}
+[data-dpr="3"] p {
+  font-size: 42px;
+}
+.footer {
+  width: 94%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 0.88709677rem;
+  padding-bottom: 1.0483871rem;
+  border-top: 1px solid #ccc;
+}
+.footer .footer_left {
+  width: 50%;
+}
+.footer .footer_left img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.footer .footer_right {
+  width: 50%;
+}
+.footer .footer_right img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+h6 {
+  position: absolute;
+  bottom: 90%;
+  left: 34%;
+  width: 30%;
+  background: #fff;
+  font-size: 16px;
+  z-index: 999;
+  text-align: center;
+}
+[data-dpr="2"] h6 {
+  font-size: 32px;
+}
+[data-dpr="3"] h6 {
+  font-size: 48px;
+}
+.posi {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  bottom: 0 ;
+  z-index: 99;
+  left: 0;
+}

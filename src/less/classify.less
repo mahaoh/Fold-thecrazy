@@ -1,0 +1,186 @@
+@import url("rem.less");
+body,html{
+    margin-top:1.819355rem;
+    .mb(300);
+}
+.search{
+    width:100%;
+    display: flex;
+    position: fixed;
+    top:0px;
+    left:0;
+    z-index:999;
+    height: 1.548387rem;
+    background:#fff;
+    .search_left{
+        width:100%;
+        .h(92);
+        margin-top:0.320968rem;
+        display:flex;
+        justify-content:flex-end;
+        .search_s{
+            width:96%;
+            background:#e1e0df;
+            opacity: 0.8;
+            display:flex;
+            .pt(20);
+            .pb(20);
+            justify-content: space-between;
+            p{
+                display:flex;
+                align-items:center;
+                span{
+                    .font-dpr(14px);
+                    color:#bcbcbc;
+                    .pl(20);
+                }
+                img{
+                    .w(50);
+                    .h(50);
+                }
+            }
+            P:first-child{
+                .pl(24);
+            }
+            .sao{
+                .pr(28);
+            }
+        }
+    }
+    .search_right{
+        width:130px;
+       display:flex;
+       align-items:center;
+        img{
+            .w(70);
+            .h(62);
+            display:block;
+            margin: 0 auto;
+        }
+    }
+}
+#swiper-container2{
+    width:100%;
+    border-bottom:1px solid #ccc;
+    background:#fff;
+    position: fixed;
+    left:0;
+    top:86px;
+    .mb(20);
+    margin-top:0.241935rem;
+    z-index:999;
+    .swiper-wrapper{
+        width:80%;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-between;
+    }
+    .swiper-slide{
+        .lh(100);
+        text-align: center;
+        .font-dpr(14px);
+
+    }
+    .active-nav{
+         border-bottom:3px solid red;
+         color:red;
+    }
+}
+#swiper-container3{
+    width:100%;
+    #fu{
+        display: flex;
+        position:relative;
+        .ul_list{
+            width:25%;
+            li{
+                .lh(192);
+                border-bottom:1px solid #ccc;
+                background:#efefef;
+                .font-dpr(16px);
+                text-align:center;
+            }
+            .active_list{
+                background:#fff;
+                color:red;
+            }
+        }
+        .ul_right{
+            width:75%;
+            h6{
+                .font-dpr(16px);
+                text-align:center;
+                .pb(70);
+                .pt(84);
+                span{
+                    .pl(68);
+                    .pr(68);
+                    font-weight:800;
+              }
+            }
+            .list{
+                width:100%;
+                display: flex;
+                flex-wrap:wrap;
+                .img_list{
+                    width:33.3333%;
+
+                    img{
+                        width:100%;
+                        display:block;
+                        margin:0 auto;
+                    }
+                    p{
+                        .font-dpr(14px);
+                        text-align:center;
+                        .pt(40);
+                        .pb(90);
+                    }
+                }
+            }
+        }
+    }
+    .orange-slide,.blue-slide{
+        .btn{
+            width:100%;
+            background:#ccc;
+            .pt(36);
+            button{
+                background:#000;
+                width:90%;
+                margin:0 auto;
+                .lh(118);
+                color:#fff;
+                display:block;
+                .font-dpr(14px);
+                .mt(44);
+                .mb(74);
+                border:none;
+            }
+            h6{
+                text-align:center;
+                .font-dpr(14px);
+                 color:#9999;
+                 .pb(25);
+                span{
+                    .pl(56);
+                    .pr(56);
+
+                }
+            }
+        }
+    }
+    .wang_list{
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        .wang{
+            width:25%;
+            border:1px solid #ccc;
+            box-sizing: border-box;
+            img{
+                width:100%;
+            }
+        }
+    }
+}

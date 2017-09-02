@@ -1,0 +1,101 @@
+body,
+html {
+  margin-bottom: 1.000439rem;
+  margin-top: 1.0483871rem;
+}
+#swiper-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  height: 1.0483871rem;
+  line-height: 1.0483871rem;
+}
+#swiper-container2 .swiper-slide {
+  width: 16%;
+  margin-left: 0.28225806rem;
+  text-align: center;
+  font-size: 14px;
+}
+[data-dpr="2"] #swiper-container2 .swiper-slide {
+  font-size: 28px;
+}
+[data-dpr="3"] #swiper-container2 .swiper-slide {
+  font-size: 42px;
+}
+#swiper-container2 .swiper-slide i {
+  padding-right: 0.08064516rem;
+  color: red;
+}
+#swiper-container2 p {
+  padding-right: 0.32258065rem;
+  font-size: 16px;
+}
+[data-dpr="2"] #swiper-container2 p {
+  font-size: 32px;
+}
+[data-dpr="3"] #swiper-container2 p {
+  font-size: 48px;
+}
+#swiper-container2 .active-nav {
+  color: red;
+  border-bottom: 3px solid red;
+}
+.list .swiper-slide {
+  width: 30%;
+  margin-left: 0.16129032rem;
+}
+.list .swiper-slide img {
+  width: 100%;
+}
+#swiper-container3 h6 {
+  font-size: 16px;
+  padding-left: 0.16129032rem;
+  padding-top: 0.77419355rem;
+  padding-bottom: 0.08870968rem;
+}
+[data-dpr="2"] #swiper-container3 h6 {
+  font-size: 32px;
+}
+[data-dpr="3"] #swiper-container3 h6 {
+  font-size: 48px;
+}
+#swiper-container3 h5 {
+  color: #ccc;
+  padding-left: 0.16129032rem;
+  padding-bottom: 0.17741935rem;
+  font-size: 16px;
+}
+[data-dpr="2"] #swiper-container3 h5 {
+  font-size: 32px;
+}
+[data-dpr="3"] #swiper-container3 h5 {
+  font-size: 48px;
+}
+.list2 .swiper-slide {
+  width: 44%;
+  margin-left: 0.16129032rem;
+}
+.list2 .swiper-slide img {
+  width: 100%;
+}
+.list2 .swiper-slide {
+  font-size: 16px;
+}
+[data-dpr="2"] .list2 .swiper-slide {
+  font-size: 32px;
+}
+[data-dpr="3"] .list2 .swiper-slide {
+  font-size: 48px;
+}
+.list2 .swiper-slide p {
+  color: #999;
+  padding-top: 0.27419355rem;
+  padding-bottom: 0.64516129rem;
+}

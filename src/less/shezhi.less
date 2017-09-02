@@ -1,0 +1,64 @@
+@import url("rem.less");
+body,html{
+    background:#f6f6f6;
+}
+#header{
+    width:100%;
+    background:#fafafa;
+    .h(124);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+
+
+    span{
+        .font-dpr(17px);
+    }
+    span:nth-child(1){
+        .pl(56);
+        width:150px;
+        i{
+            .font-dpr(20px);
+        }
+    }
+    span:nth-child(2){
+        width:100%;
+        text-align:center;
+    }
+    span:nth-child(3){
+        width:150px;
+        text-align:right;
+        .pr(48);
+    }
+}
+.list{
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    .h(144);
+    .mt(38);
+    p{
+        .font-dpr(16px);
+        .pl(55);
+         .lh(144);
+    }
+    i{
+        color:#ccc;
+        .font-dpr(20px);
+        .pr(56);
+        .lh(144);
+    }
+}
+.btn{
+    width:94%;
+    background:red;
+    border:none;
+    color:#fff;
+    .font-dpr(16px);
+    display:block;
+    margin: 0 auto;
+    .h(110);
+    border-radius: 10px;
+    .mt(60);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>晒单</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--if lt IE 9]>
+        <script src="../assets/html5shiv.js"></script>
+        <script src="../assets/respond.min.js"></script>
+    <![endif]-->
+    <script src="../assets/flexible/flexible_css.debug.js"></script>
+    <script src="../assets/flexible/flexible.debug.js"></script>
+    <link rel="stylesheet" type="text/css" href="../assets/font-4.7/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/center.css">
+    <link rel="stylesheet" type="text/css" href="../assets/swiper/css/swiper.min.css">
+</head>
+<body>
+    <div class="swiper-container" id="swiper-container2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide active-nav">
+                <i class="fa fa-bars" aria-hidden="true"></i>精选</div>
+            <div class="swiper-slide">
+                话题</div>
+            <div class="swiper-slide">
+                关注</div>
+        </div>
+        <p><i class="fa fa-search" aria-hidden="true"></i></p>
+    </div>
+
+    <div class="swiper-container" id="swiper-container3">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide red-slide" id="fu">
+
+            <script type="text/html" id="center">
+                {{each list as v}}
+                    <div class="list">
+                         <img src="{{v.img}}" alt="">
+                        <h6>{{v.title}}</h6>
+                         <p><span>{{v.name}}</span><span>{{v.ren}}</span></p>
+                    </div>
+                {{/each}}
+            </script>
+
+        </div>
+        <div class="swiper-slide orange-slide">
+        <script type="text/html" id="center2">
+            {{each list as v}}
+                 <div class="orr_list">
+                    <img src="{{v.img}}" alt="">
+                    <ul>
+                        <li>{{v.title}}</li>
+                        <li>
+                            <p>{{v.name}}</p>
+                            <h6>{{v.canyu}}</h6>
+                        </li>
+                    </ul>
+                </div>
+            {{/each}}
+        </script>
+
+            </div>
+        <div class="swiper-slide blue-slide">
+            你还没有关注
+            </div>
+    </div>
+</div>
+
+ <footer class="footer">
+        <dl class="shouye">
+            <dt><img src="../images/footer-img/footer1.png"></dt>
+            <dd >首页</dd>
+        </dl>
+        <dl class="fenlie">
+            <dt><img src="../images/footer-img/footer4.png"></dt>
+            <dd>分类</dd>
+        </dl>
+        <div class="juntuan">
+            <dl class="yuan">
+                <dt class="dts"><img src="../images/footer-img/footer5.png" class="imgs" ></dt>
+                <dd class="dds active">晒单</dd>
+            </dl>
+        </div>
+        <dl class="zui">
+            <dt><img src="../images/footer-img/footer8.png"></dt>
+            <dd>最IN</dd>
+        </dl>
+        <dl class="wode">
+            <dt><img src="../images/footer-img/footer9.png"></dt>
+            <dd>我的</dd>
+        </dl>
+    </footer>
+
+    <script src="../assets/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../assets/swiper/js/swiper.min.js"></script>
+    <script src="../assets/template-web.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/center.js"></script>
+    <script >
+
+    </script>
+</body>
+</html>

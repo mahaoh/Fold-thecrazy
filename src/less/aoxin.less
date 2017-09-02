@@ -1,0 +1,155 @@
+@import url("rem.less");
+body,html{
+    background:#b6999b;
+    .mt(100);
+    .mb(125);
+}
+#header{
+    width:100%;
+    background:#fff;
+    .h(124);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:999;
+    span{
+        .font-dpr(17px);
+    }
+    span:nth-child(1){
+        .pl(56);
+        width:150px;
+        .font-dpr(20px);
+    }
+    span:nth-child(2){
+        width:100%;
+        text-align:center;
+    }
+    span:nth-child(3){
+        width:150px;
+        text-align:right;
+        .pr(48);
+        .font-dpr(16px);
+    }
+}
+.banner{
+    width:100%;
+    img{
+        width:100%;
+    }
+}
+.title{
+    width:100%;
+    .pt(60);
+    .pb(40);
+    img{
+        width:60%;
+        display:block;
+        margin: 0 auto;
+    }
+}
+.list{
+    display:flex;
+    flex-wrap: wrap;
+    .list_img{
+        width:30%;
+        .mt(35);
+        .ml(35);
+        img{
+        width:100%;
+    }
+    }
+
+}
+.section{
+    width:96%;
+    background:#fff;
+    margin:0 auto;
+    .mb(25);
+    display: flex;
+    .section_left{
+        width:45%;
+        img{
+            width:40%;
+            .pt(30);
+            display:block;
+            margin: 0 auto;
+            .pb(30);
+        }
+    }
+    .section_right{
+        width:55%;
+        h6{
+            .font-dpr(16px);
+            .pt(50);
+            .pb(100);
+        }
+        span{
+            color:red;
+            .font-dpr(18px);
+        }
+        s{
+            .font-dpr(14px);
+            color:#999;
+            .pl(52);
+        }
+        p{
+            .pt(50);
+            button{
+                border:none;
+                background:red;
+                .h(100);
+                color:#fff;
+                .pl(160);
+                .pr(160);
+                .font-dpr(16px);
+            }
+        }
+    }
+}
+.btn{
+    width:96%;
+    background:#fff;
+    color:#000;
+    .font-dpr(14px);
+    display:block;
+    margin: 0 auto;
+    .h(135);
+}
+.jing{
+    width:96%;
+    margin:0 auto;
+    .mb(30);
+    img{
+        width:100%;
+    }
+}
+.swiper-container{
+    width:96%;
+    background:#fff;
+    margin: 0 auto;
+    .swiper-slide{
+        width:33%;
+        img{
+            width:80%;
+            display:block;
+            margin:0 auto;
+            .pt(52);
+            .pb(46);
+        }
+        h6{
+            text-align:center;
+            .font-dpr(16px);
+            .pb(40);
+        }
+        p{
+            color:red;
+            .font-dpr(16px);
+            text-align:center;
+            .pb(100);
+        }
+    }
+}

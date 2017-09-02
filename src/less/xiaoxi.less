@@ -1,0 +1,87 @@
+@import url("rem.less");
+#header{
+    width:100%;
+    background:#fff;
+    .h(124);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    span{
+        .font-dpr(17px);
+    }
+    span:nth-child(1){
+        .pl(56);
+        width:150px;
+    }
+    span:nth-child(2){
+        width:100%;
+        text-align:center;
+    }
+    span:nth-child(3){
+        width:150px;
+        text-align:right;
+        .pr(48);
+        i{
+            background:#fff;
+            .font-dpr(18px);
+        }
+    }
+}
+.inp{
+    width:100%;
+    .h(136);
+    background:#f6f6f6;
+    display:flex;
+    align-items:center;
+    input{
+        .h(80);
+        .mt(25);
+        border:none;
+        width:94%;
+        display:block;
+        margin: 0 auto;
+    }
+    ::placeholder{
+        text-align:center;
+    }
+}
+.list{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    ul{
+        width:96%;
+        li{
+            display:flex;
+            border-bottom:1px solid #ccc;
+            .font-dpr(16px);
+            img{
+                .w(138);
+                .h(138);
+                .pt(30);
+                .pb(30);
+            }
+            p{
+                .pt(70);
+                .pl(30);
+            }
+        }
+    }
+}
+.di{
+    width:100%;
+    .mt(62);
+
+    img{
+        display:block;
+        margin: 0 auto;
+        width:40%;
+    }
+    p{
+        .font-dpr(16px);
+        text-align:center;
+        .pt(50);
+        color:#ccc;
+    }
+}
